@@ -72,7 +72,6 @@ systemd_setup(){
 app_restart(){
     systemctl restart $app_name
     VALIDATE $? "Restarted $app_name"
-
 }
 
 print_total_time(){
