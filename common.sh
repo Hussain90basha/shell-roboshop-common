@@ -70,7 +70,7 @@ systemd_setup(){
     VALIDATE $? "Enable $app_name" 
 }
 app_restart(){
-    systemctl restart $aap_name
+    systemctl restart $app_name
     VALIDATE $? "Restarted $app_name"
 
 }
